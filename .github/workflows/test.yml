@@ -10,7 +10,7 @@ defaults:
 jobs:
   dependents:
     runs-on: ubuntu-latest
-    container: swift:5.2-bionic
+    container: swift:5.3-focal
     strategy:
       fail-fast: false
       matrix:
